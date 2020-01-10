@@ -15,6 +15,7 @@
 		E7C25FC923C85E33007BE6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7C25FC723C85E33007BE6A6 /* LaunchScreen.storyboard */; };
 		E7C25FD423C85E34007BE6A6 /* SwiftTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C25FD323C85E34007BE6A6 /* SwiftTutorialTests.swift */; };
 		E7C25FDF23C85E34007BE6A6 /* SwiftTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C25FDE23C85E34007BE6A6 /* SwiftTutorialUITests.swift */; };
+		E7C25FED23C86ABD007BE6A6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C25FEC23C86ABD007BE6A6 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E7C25FDA23C85E34007BE6A6 /* SwiftTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C25FDE23C85E34007BE6A6 /* SwiftTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialUITests.swift; sourceTree = "<group>"; };
 		E7C25FE023C85E34007BE6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C25FEC23C86ABD007BE6A6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E7C25FBE23C85E33007BE6A6 /* SceneDelegate.swift */,
 				E7C25FC023C85E33007BE6A6 /* ContentView.swift */,
 				E7C25FC223C85E33007BE6A6 /* Assets.xcassets */,
+				E7C25FEC23C86ABD007BE6A6 /* CircleImage.swift */,
 				E7C25FC723C85E33007BE6A6 /* LaunchScreen.storyboard */,
 				E7C25FCA23C85E33007BE6A6 /* Info.plist */,
 				E7C25FC423C85E33007BE6A6 /* Preview Content */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C25FBD23C85E33007BE6A6 /* AppDelegate.swift in Sources */,
+				E7C25FED23C86ABD007BE6A6 /* CircleImage.swift in Sources */,
 				E7C25FBF23C85E33007BE6A6 /* SceneDelegate.swift in Sources */,
 				E7C25FC123C85E33007BE6A6 /* ContentView.swift in Sources */,
 			);

@@ -10,7 +10,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        
+        VStack(alignment: .leading) {
+            
+            Text("Terve Antti!")
+            .font(.title)
+            .foregroundColor(.green)
+            
+            HStack {
+                Text("Joshuan parkki")
+                    .font(.subheadline)
+                
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
+            
+            CircleImage()
+            
+        }
+    .padding()
+    
     }
 }
 
@@ -19,3 +39,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

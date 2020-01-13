@@ -10,28 +10,38 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
+        VStack {
+        MapView()
+            .edgesIgnoringSafeArea(.top)
+            .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            
         VStack(alignment: .leading) {
             
-            Text("Terve Antti!")
+            Text("Denssiparkki")
             .font(.title)
             .foregroundColor(.green)
             
             HStack {
-                Text("Joshuan parkki")
+                Text("kansallispuisto")
                     .font(.subheadline)
                 
                 Spacer()
-                Text("California")
+                Text("Sammonlahti")
                     .font(.subheadline)
             }
-            
-            CircleImage()
-            
+                        
         }
     .padding()
+            
+            Spacer()
     
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {

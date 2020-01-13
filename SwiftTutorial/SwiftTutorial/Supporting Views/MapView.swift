@@ -18,10 +18,7 @@ struct MapView: UIViewRepresentable {
     
     func updateUIView(_ view: MKMapView, context: Context) {
         
-        let coordinate = CLLocationCoordinate2D(
         
-            latitude: 61.05871, longitude: 28.18871
-        )
         
         let span = MKCoordinateSpan(latitudeDelta: 2.0, longitudeDelta: 2.0)
         let region = MKCoordinateRegion(center: coordinate, span: span)

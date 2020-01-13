@@ -17,7 +17,7 @@ struct LandmarkList: View {
     
            
             
-    List(landmarkData )
+            List(landmarkData )
                             {
                                 landmark in
         

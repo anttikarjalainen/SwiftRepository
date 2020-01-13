@@ -18,6 +18,10 @@ struct LandmarkDetail: View {
 
     var body: some View {
         VStack {
+
+            
+            
+            
             MapView(coordinate: landmark.locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height: 300)

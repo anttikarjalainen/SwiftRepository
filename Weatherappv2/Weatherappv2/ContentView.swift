@@ -1,21 +1,15 @@
-//
-//  ContentView.swift
-//  Weatherappv2
-//
-//  Created by Antti Karjalainen on 17/01/2020.
-//  Copyright © 2020 Antti Karjalainen. All rights reserved.
-//
-
 import SwiftUI
+import Combine
 
-struct ContentView: View {
+struct ContentView : View {
+    @ObservedObject var apiManager: APIManager
     var body: some View {
-        Text("Weather app")
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        NavigationView {
+            List {
+                ForEach(apiManager.weathers) { weather in
+                    UserRow(weather:Weather)
+                }
+            }.navigationBarTitle(Text("User Information"))
+        }
     }
 }

@@ -1,22 +1,15 @@
-//
-//  Weather.swift
-//  Weatherappv2
-//
-//  Created by Antti Karjalainen on 17/01/2020.
-//  Copyright © 2020 Antti Karjalainen. All rights reserved.
-//
-
 import Foundation
-class Weather {
-struct WeatherName: Decodable {
+
+struct Weather: Codable, Identifiable {
     
-    var name: String
+//    let id, dt, cod, timezone: Int
+  let name, base: String
+//    let coord: coord
+//    let weather:
     
-    
-    struct WeatherTemperature: Decodable {
-        var temp: String
-    }
-    
-    
+    let main: Main
 }
+
+struct Main: Codable {
+    let temp: String
 }
